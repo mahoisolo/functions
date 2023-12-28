@@ -22,7 +22,7 @@ app.post("/payments/create", async (request, response) => {
     clientSecret: paymentIntent.client_secret,
   })
 })
-// exports.api = https.onRequest(app);
+ exports.api = https.onRequest(app);
 app.listen(5001,console.log("Amazon server running on port 5001"));
 
 // http://127.0.0.1:5001/clone-af08c/us-central1/api
